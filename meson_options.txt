@@ -1,0 +1,1 @@
+option('arch', type: 'combo', choices: ['x64', 'Win32'], value: 'x64', description: 'Select which architecture of binary to use when there is a choice')
