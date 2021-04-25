@@ -9,6 +9,7 @@ if host_machine.system() == 'windows'  # These libraries only have windows binar
 	subdir('libdc1394-2.2.1-bin')
 	subdir('pugixml-1.8')
 	subdir('Thorlabs')
+	subdir('hidapi')
 endif
 
 '''
