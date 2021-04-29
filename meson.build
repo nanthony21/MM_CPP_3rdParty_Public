@@ -10,6 +10,7 @@ if host_machine.system() == 'windows'  # These libraries only have windows binar
 	subdir('pugixml-1.8')
 	subdir('Thorlabs')
 	subdir('hidapi')
+	subdir('modbus')
 endif
 
 '''
