@@ -18,6 +18,6 @@ includes = [
 ]
 
 
-SDK_dep = declare_dependency(include_directories: includes, dependencies: deps, version: '1.6.2')
-meson.override_dependency('modbus', SDK_dep, version: '3.1.4')
+SDK_dep = declare_dependency(include_directories: includes, dependencies: deps, version: '3.1.4')
+meson.override_dependency('modbus', SDK_dep)
 install_data(SDK_dir / libDir / 'modbus.dll')
